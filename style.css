@@ -42,6 +42,13 @@
  
     width: 100% !important;
   }
+
+  .product-top-items,.product-middle-items,.product-bottom-items {
+    display: inline!important;
+    overflow-y: scroll !important;
+    
+  }
+
  }
 
 
