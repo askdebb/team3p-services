@@ -31,20 +31,20 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .top-section {
-    display: block !important;
+    display: block;
   }
   .social-handles {
-    width: 100% !important;
+    width: 100%;
     margin-bottom: 30px;
   }
 
   .contact {
-    width: 100% !important;
+    width: 100%;
   }
 
   .product-top-items, .product-middle-items, .product-bottom-items {
-    display: inline !important;
-    overflow-y: scroll !important;
+    display: inline;
+    overflow-y: scroll;
   }
 }
 
