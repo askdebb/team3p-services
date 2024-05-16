@@ -1,1 +1,3 @@
-// alert("Hello")
+// Smooth scroll for navigation links
+
+  
