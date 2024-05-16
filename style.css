@@ -37,7 +37,12 @@
 
   .product-top-items, .product-middle-items, .product-bottom-items {
     margin: 0 auto !important;
+    padding: 0 !important;
   }
+.card {
+  width: 100% !important
+}
+
   .social-handles {
     width: 100% !important;
     margin-bottom: 30px;
