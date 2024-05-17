@@ -118,26 +118,27 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form>
+        <form action="https://formsubmit.co/teamprints3p@email.com" method="POST">
+          <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
           <div class="mb-3">
             <label for="customer-name" class="col-form-label">Customer Name:</label>
-            <input type="text" class="form-control" id="customer-name" placeholder="Enter your name">
+            <input type="text" class="form-control" id="customer-name" placeholder="Enter your name" required>
           </div>
           <div class="mb-3">
             <label for="customer-email" class="col-form-label">Customer Email:</label>
-            <input type="text" class="form-control" id="customer-email" placeholder="Enter your email address...">
+            <input type="text" class="form-control" id="customer-email" placeholder="Enter your email address..." required>
           </div>
           <div class="mb-3">
             <label for="product-name" class="col-form-label">Product Name:</label>
-            <input type="text" class="form-control"  value="Canon’s Color IR" id="product-name">
+            <input type="text" class="form-control"  value="Canon’s Color IR" id="product-name" readonly>
           </div>
           <div class="mb-3">
             <label for="customer-number" class="col-form-label">Customer Mobile No.:</label>
-            <input type="text" class="form-control"  placeholder="0541718326" id="customer-number">
+            <input type="text" class="form-control"  placeholder="0541718326" id="customer-number" required>
           </div>
           <div class="mb-3">
             <label for="product-qty" class="col-form-label">Product Qty.:</label>
-            <select name="" id="product-qty">
+            <select name="" id="product-qty" required>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
