@@ -49,6 +49,12 @@
     
   }
 
+  .services-items, .services-middle-items {
+    display: inline!important;
+    overflow-y: scroll !important;
+    
+  }
+
  }
 
 
