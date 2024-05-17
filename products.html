@@ -19,6 +19,10 @@
     <!-- css -->
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- link for social icons-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
 
@@ -62,9 +66,94 @@
             <div class="card-body">
               <h5 class="card-title">Canon’s Color IR</h5> <hr>
               <p class="card-text">Canon’s Color imageRUNNER ADVANCE DX C3935i can help simplify the end-user experience and management of technology, for any business needs</p>
-              <a href="#" class="btn btn-primary">Read more</a>
+                   <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Read more
+              </button>
+
+              <!-- <a href="#" class="btn btn-primary">Read more</a> -->
             </div>
           </div>
+
+     
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Canon’s Color IR Details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body container d-flex flex-column ">
+        <h3>Workflow Efficiency</h3><hr> <br>
+        <ul>
+          <li>10.1" intuitive touchscreen with smartphone-like usability</li>
+          <li>A unique, customized experience tailored to individual preferences using My ADVANCE.</li>
+          <li>Scan and convert documents to searchable digital files in a variety of file formats</li>
+          <li>Integration with Canon and various third-party software with embedded application platform</li>
+        </ul> <br>
+        <hr>
+        <p>Price: <b>$3000.00</b> with <em>Delivery and Installation</em></p>
+  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">back</button>
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="">BUY</button>
+        <!-- <button type="button" class="btn btn-primary">BUY</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">BUY REQUEST FORM</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="customer-name" class="col-form-label">Customer Name:</label>
+            <input type="text" class="form-control" id="customer-name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="customer-email" class="col-form-label">Customer Email:</label>
+            <input type="text" class="form-control" id="customer-email" placeholder="Enter your email address...">
+          </div>
+          <div class="mb-3">
+            <label for="product-name" class="col-form-label">Product Name:</label>
+            <input type="text" class="form-control"  value="Canon’s Color IR" id="product-name">
+          </div>
+          <div class="mb-3">
+            <label for="customer-number" class="col-form-label">Customer Mobile No.:</label>
+            <input type="text" class="form-control"  placeholder="0541718326" id="customer-number">
+          </div>
+          <div class="mb-3">
+            <label for="product-qty" class="col-form-label">Product Qty.:</label>
+            <select name="" id="product-qty">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+            <!-- <input type="text" class="form-control"   id="product-qty"> -->
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
           <div class="card mb-2" style="width: 18rem;">
             <img src="./images/WorkForce Pro WF-M5799.jpg" class="card-img-top p-3" alt="WorkForce Pro WF-M5799">
             <div class="card-body">
@@ -152,7 +241,13 @@
     <div class="bg-light">
       <footer class="container">
         <div class="d-flex justify-content-around p-4 top-section">
-          <div class="social-handles w-50">Social Media Links here</div>
+          <div class="social-handles w-50"> 
+            <p class="social-text">Follow Us</p>
+            <br/>
+            <a href=""class="facebook-icon"><i class="fa-brands fa-facebook"></i></a>
+              <a href=""class="instagram-icon"><i class="fa-brands fa-instagram"></i></a>
+              <a href=""class="youtube-icon"><i class="fa-brands fa-youtube"></i></a>
+            </div>
           <div class="contact form w-50">
             <div class="display-6">Contact Us:</div>
   
