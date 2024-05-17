@@ -118,31 +118,35 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form action="https://formsubmit.co/teamprints3p@gmail.com" method="POST" >
+        <!-- <form action="#" method="POST" > -->
+        <!-- <form action="https://formsubmit.co/teamprints3p@gmail.com" method="POST" > -->
+        <form action="https://formsubmit.co/9011def23f69af6b3f8e0d90506dba1e" method="POST" >
+        <!-- <form action="9011def23f69af6b3f8e0d90506dba1e" method="POST" > -->
 
-          <input type="hidden" name="_captcha" value="false">
+          <!-- <input type="hidden" name="_captcha" value="false"> -->
           <input type="hidden" name="_template" value="table">
-          
+          <input type="hidden" name="_subject" value="New Sales Request!">
+
           <!-- <input type="hidden" name="_next" value="https://askdebb.github.io/team3p-services/thanks.html"> -->
           <div class="mb-3">
             <label for="customer-name" class="col-form-label">Customer Name:</label>
-            <input type="text" class="form-control" id="customer-name" placeholder="Enter your name" required>
+            <input type="text" class="form-control"  name="customer-name" id="customer-name" placeholder="Enter your name" required>
           </div>
           <div class="mb-3">
             <label for="customer-email" class="col-form-label">Customer Email:</label>
-            <input type="text" class="form-control" id="customer-email" placeholder="Enter your email address..." required>
+            <input type="text" class="form-control" name="customer-email" id="customer-email" placeholder="Enter your email address..." required>
           </div>
           <div class="mb-3">
             <label for="product-name" class="col-form-label">Product Name:</label>
-            <input type="text" class="form-control"  value="Canon’s Color IR" id="product-name" readonly>
+            <input type="text" class="form-control" name="product-name"  value="Canon’s Color IR" id="product-name" readonly>
           </div>
           <div class="mb-3">
             <label for="customer-number" class="col-form-label">Customer Mobile No.:</label>
-            <input type="text" class="form-control"  placeholder="0541718326" id="customer-number" required>
+            <input type="text" class="form-control" name="customer-number"  placeholder="0541718326" id="customer-number" required>
           </div>
           <div class="mb-3">
             <label for="product-qty" class="col-form-label">Product Qty.:</label>
-            <select name="" id="product-qty" required>
+            <select  id="product-qty" name="product-qty" required>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -150,12 +154,13 @@
             </select>
             <!-- <input type="text" class="form-control"   id="product-qty"> -->
           </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            <button type="submit"  class="btn btn-success"><b>Submit</b></button>
+          </div>
         </form>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-        <button type="button" value="submit" class="btn btn-success"><b>Submit</b></button>
-      </div>
+      
     </div>
   </div>
 </div>
