@@ -118,8 +118,12 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form action="https://formsubmit.co/teamprints3p@email.com" method="POST">
-          <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+        <form action="https://formsubmit.co/teamprints3p@gmail.com" method="POST" >
+
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          
+          <!-- <input type="hidden" name="_next" value="https://askdebb.github.io/team3p-services/thanks.html"> -->
           <div class="mb-3">
             <label for="customer-name" class="col-form-label">Customer Name:</label>
             <input type="text" class="form-control" id="customer-name" placeholder="Enter your name" required>
@@ -150,7 +154,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-success"><b>Submit</b></button>
+        <button type="button" value="submit" class="btn btn-success"><b>Submit</b></button>
       </div>
     </div>
   </div>
