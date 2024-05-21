@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Poppins", sans-serif;
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) { } */
 
@@ -15,6 +25,7 @@
     width: 100%;
   }
  
+ 
   .social-handles {
     display: block;
     width: 100%;
@@ -27,19 +38,87 @@
  } */
 
 
-
+ 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .top-section {
+  .top-section, .product-top-items, .product-middle-items, .product-bottom-items {
     display: block !important;
    
   }
+
+  .product-top-items, .product-middle-items, .product-bottom-items {
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+.card {
+  width: 100% !important
+}
+
   .social-handles {
-    width: 100% !important;
+    width: 100%;
     margin-bottom: 30px;
   }
 
   .contact {
+    width: 100%;
+  }
+
+  .product-top-items, .product-middle-items, .product-bottom-items {
+    display: inline;
+    overflow-y: scroll;
+  }
+}
+
+
+
+/* .container {
+  display: flex;
+} */
+
+.column {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  text-align: center;
+}
+
+.column:nth-child(1) {
+  background-color: white;
+}
+
+.column:nth-child(2) {
+  background-color: white;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+  .services-items, .services-middle-items {
+    display: inline!important;
+    overflow-y: scroll !important;
+    
+  }
+
+}
  
     width: 100% !important;
   }
