@@ -106,10 +106,6 @@
   </div>
 </div>
 
-
-
-
-
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable">
     <div class="modal-content">
@@ -164,14 +160,104 @@
     </div>
   </div>
 </div>
+
+
           <div class="card mb-2" style="width: 18rem;">
             <img src="./images/WorkForce Pro WF-M5799.jpg" class="card-img-top p-3" alt="WorkForce Pro WF-M5799">
             <div class="card-body">
               <h5 class="card-title">WorkForce Pro</h5><hr>
               <p class="card-text">Designed for home offices and small workgroups, the WorkForce Pro WF-M5799 Workgroup Monochrome Multifunction Printer from Epson provides you with ...</p>
-              <a href="#" class="btn btn-primary">Read more</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#2staticBackdrop">
+                  Read more
+                </button>
             </div>
           </div>
+
+          <div class="modal fade" id="2staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">WorkForce Pro Details</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body container d-flex flex-column ">
+                  <h3>Workflow Efficiency</h3><hr>
+                  <ul>
+                    <li>Built-in functionalities like Wi-Fi, Wi-Fi Direct, and Gigabit Ethernet connectivity enhance overall office productivity.</li>
+                    <li>A smartphone-like touchscreen interface makes navigating the printer's features effortless.</li>
+                    <li>These printers offer high-yield ink cartridges, resulting in a significantly lower cost per page compared to color laser printers.</li>
+                    <li> utilize inkjet technology, which uses up to 80% less power than competing color lasers</li>
+                  </ul>
+                  <hr>
+                  <p>Price: <b>$1999.00</b> with <em>Delivery and Installation</em></p>
+            
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">back</button>
+                  <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#2exampleModal" data-bs-whatever=""><b>BUY</b></button>
+                  <!-- <button type="button" class="btn btn-primary">BUY</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="modal fade" id="2exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">BUY REQUEST FORM</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- <form action="#" method="POST" > -->
+                  <!-- <form action="https://formsubmit.co/teamprints3p@gmail.com" method="POST" > -->
+                  <form action="https://formsubmit.co/9011def23f69af6b3f8e0d90506dba1e" method="POST" >
+                  <!-- <form action="9011def23f69af6b3f8e0d90506dba1e" method="POST" > -->
+          
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_subject" value="New Sales Request!">
+                    <input type="hidden" name="_next" value="https://askdebb.github.io/team3p-services/">
+          
+                    <div class="mb-3">
+                      <label for="customer-name" class="col-form-label">Customer Name:</label>
+                      <input type="text" class="form-control"  name="customer-name" id="customer-name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="customer-email" class="col-form-label">Customer Email:</label>
+                      <input type="text" class="form-control" name="customer-email" id="customer-email" placeholder="Enter your email address..." required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="product-name" class="col-form-label">Product Name:</label>
+                      <input type="text" class="form-control" name="product-name"  value="WorkForce Pro" id="product-name" readonly>
+                    </div>
+                    <div class="mb-3">
+                      <label for="customer-number" class="col-form-label">Customer Mobile No.:</label>
+                      <input type="text" class="form-control" name="customer-number"  placeholder="0541718326" id="customer-number" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="product-qty" class="col-form-label">Product Qty.:</label>
+                      <select  id="product-qty" name="product-qty" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                      </select>
+                      <!-- <input type="text" class="form-control"   id="product-qty"> -->
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      <button type="submit"  class="btn btn-success"><b>Submit</b></button>
+                    </div>
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
           <div class="card mb-2" style="width: 18rem;">
             <img src="./images/Canon Pixma TS3430 printer.jpg" class="card-img-top p-3" alt="Canon Pixma TS3430 printer">
             <div class="card-body">
