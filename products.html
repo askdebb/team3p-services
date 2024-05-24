@@ -54,6 +54,7 @@
         </div>
       </div>
     </nav>
+    <div id="liveAlertPlaceholder"></div>
 
     <div class="container d-flex flex-column h-100 my-4">
       <h1 class="display-4">Products</h1> <hr>
@@ -120,7 +121,7 @@
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_subject" value="New Sales Request!">
-          <input type="hidden" name="_next" value="https://askdebb.github.io/team3p-services/">
+          <input type="hidden" name="_next" value="https://askdebb.github.io/team3p-services/products.html">
 
           <div class="mb-3">
             <label for="canon-customer-name" class="col-form-label">Customer Name:</label>
@@ -150,7 +151,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-            <button type="submit"  class="btn btn-success"><b>Submit</b></button>
+            <button type="submit"  class="btn btn-success liveAlertBtn"><b>Submit</b></button>
           </div>
         </form>
       </div>
