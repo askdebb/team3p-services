@@ -189,12 +189,18 @@ hr {
 
   .form-btn {
     margin-top: 10px;
-    width: 13rem !important;
+    width: 95% !important;
+  }
+
+  .card-width {
+    
+    width: 93%;
+    margin: 10px auto !important;
   }
 
   .form-btn-about {
     margin-top: 10px;
-    width: 14rem !important;
+    width: 100% !important;
 
   }
 
