@@ -1,0 +1,29 @@
+{
+  "name": "team3p-services",
+  "version": "1.0.0",
+  "description": "team3p-services designed for a client",
+  "main": "script.js",
+  "scripts": {
+    "build": "netlify deploy --prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askdebb/team3p-services.git"
+  },
+  "keywords": [
+    "team3p"
+  ],
+  "author": "Team 3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/askdebb/team3p-services/issues"
+  },
+  "homepage": "https://github.com/askdebb/team3p-services#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "netlify-cli": "^17.25.0",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
+  }
+}
