@@ -62,6 +62,9 @@
       <div id="liveAlertPlaceholder">
         
       </div>
+      <div id="closeAlertPlaceholder">
+        
+      </div>
       <h1 class="display-4 ">Products</h1> <hr>
      <div class="product-container bg-light p-4 rounded g-3 d-flex flex-column justify-content-around">
       <div class="product-top my-4">
@@ -120,13 +123,18 @@
       <div class="modal-body">
         <!-- <form action="#" method="POST" > -->
         <!-- <form action="https://formsubmit.co/teamprints3p@gmail.com" method="POST" > -->
-        <form action="https://formsubmit.co/9011def23f69af6b3f8e0d90506dba1e" method="POST" >
+        <!-- <form name="contact-me-product" data-netlify="true" method="POST" > -->
+        <form action="https://submit-form.com/oDzp0Liuf" method="POST" >
+        <!-- <form action="https://formsubmit.co/9011def23f69af6b3f8e0d90506dba1e" method="POST" > -->
         <!-- <form action="9011def23f69af6b3f8e0d90506dba1e" method="POST" > -->
 
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_subject" value="New: Sale Request!">
-          <input type="hidden" name="_next" value="https://askdebb.github.io/team3p-services/products.html">
+          <input type="hidden" name="_feedback.whitelabel" value="true" />
+          <input type="hidden" name="_redirect" value="https://traiy.netlify.app/thanks.html" />
+          <input type="hidden" name="_append" value="false" />
+          <input type="hidden" name="_feedback.dark" value="true" />
+          <input type="hidden" name="_feedback.success.title" value="Thank you!🫱🏿‍🫲🏿 We'll get back to you shortly." />
+
+        
 
           <div class="mb-3">
             <label for="canon-customer-name" class="col-form-label">Customer Name:</label>
@@ -142,11 +150,11 @@
           </div>
           <div class="mb-3">
             <label for="canon-customer-number" class="col-form-label">Customer Mobile No.:</label>
-            <input type="text" class="form-control" name="customer-number"  placeholder="0541718326" id="canon-customer-number" required>
+            <input type="number" maxlength="10" class="form-control" name="customer-number"  placeholder="0541718326" id="canon-customer-number" required>
           </div>
           <div class="mb-3">
             <label for="canon-product-qty" class="col-form-label">Product Qty.:</label>
-            <select  id="canon-product-qty" name="product-qty" required>
+            <select  id="canon-product-qty" name="product-qty" class="form-control"  required>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -155,7 +163,7 @@
             <!-- <input type="text" class="form-control"   id="product-qty"> -->
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="closeAlertBtn">Close</button>
             <button type="submit"  class="btn btn-success" id="liveAlertBtn"><b>Submit</b></button>
           </div>
         </form>
@@ -956,19 +964,19 @@
             <div class="display-6">Contact Us:</div>
   
             <div class="contact-forms">
-              <form class="row">
+              <form class="row"  name="contact-us-form" data-netlify="true">
                 <div class="col-md-12">
                   <label for="validationDefault01" class="form-label ms-1 mt-2">Full name</label>
-                  <input type="text" class="form-control" id="validationDefault01" placeholder="Linda Kafui Adeku Arthur" required>
+                  <input type="text" class="form-control" name="full-name" id="validationDefault01" placeholder="Linda Kafui Adeku Arthur" required>
                 </div>
                 <div class="col-md-12">
                   <label for="validationDefault02" class="form-label ms-1 mt-2">Email address</label>
-                  <input type="email" class="form-control" id="validationDefault02" placeholder="king101@3team.com" required>
+                  <input type="email" class="form-control" name="email" id="validationDefault02" placeholder="king101@3team.com" required>
               
                 </div>
                 <div class="col-md-12">
                   <label for="validationDefault03" class="form-label ms-1 mt-2">Message</label>
-                  <textarea class="form-control" name="" id="validationDefault03" placeholder="Enter information here..." required></textarea>
+                  <textarea class="form-control" name="message" id="validationDefault03" placeholder="Enter information here..." required></textarea>
                  
                 </div>
                 
