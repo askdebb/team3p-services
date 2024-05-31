@@ -73,6 +73,6 @@ if (alertTrigger) {
 
 if(closeAlertTrigger) {
   closeAlertTrigger.addEventListener('click', () => {
-    closeAppendAlert('Nice, you triggered this alert message!', 'danger')
+    closeAppendAlert('Try again, we are available.', 'danger')
   })
 }
