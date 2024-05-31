@@ -103,7 +103,7 @@ hr {
 @media only screen and (max-width: 600px) {
   .top-section, .product-top-items, .product-middle-items, .product-bottom-items {
     display: block !important;
-    
+
    
   }
   .column {
